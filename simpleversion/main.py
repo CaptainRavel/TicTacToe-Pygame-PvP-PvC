@@ -55,13 +55,9 @@ def draw_screen():
     time.sleep(2)
     draw_deal()
     gameScreen.fill(colorWhite)
-    draw_menu()
-
+    draw_lines()
+    draw_info()
     
-#Rysowanie menu
-def draw_menu():
-    gameScreen.fill(colorWhite)
-    pg.draw.rect(gameScreen,colorGrey,[gameWidth/2,gameHeight/2,140,40])
 
 # Rysowanie lini do podziału pola gry    
 def draw_lines():
